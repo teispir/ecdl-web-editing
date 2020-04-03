@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The table element - 1</title>
+</head>
+<body>
+
+<h1>The table element - 1</h1>
+
+<!--
+The <table> tag defines an HTML table.
+An HTML table consists of the <table> element and one or more <tr>, <th>, and <td> elements.
+The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell
+
+==========
+ATTRIBUTES
+==========
+align: Specifies the alignment of a table according to surrounding text
+	- left
+	- center
+	- right
+bgcolor: Specifies the background color for a table 
+	- rgb(x,x,x)
+	- #xxxxxx
+	- colorname	
+	- RGB Color picker: https://www.w3schools.com/colors/colors_picker.asp
+border: Specifies whether or not the table is being used for layout purposes
+	- 0 noborder
+	- 1 border
+cellpadding: Specifies the space between the cell wall and the cell content
+	- in pixels
+cellspacing: Specifies the space between cells
+	- in pixels
+frame: Specifies which parts of the outside borders that should be visible
+	- void
+	- above
+	- below
+	- hsides
+	- lhs
+	- rhs
+	- vsides
+	- box
+	- border
+rules: Specifies which parts of the inside borders that should be visible
+	- none
+	- groups
+	- rows
+	- cols
+	- all
+-->
+
+<table align="center" bgcolor=lightblue border=1 cellpadding="10" cellspacing="10" frame=border rules=all>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
+</body>
+</html>
