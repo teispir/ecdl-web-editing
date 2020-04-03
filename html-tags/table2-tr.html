@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The table element - 2 (tr)</title>
+</head>
+<body>
+
+<h1>The table element - 2 (tr)</h1>
+
+<!--
+The <tr> tag defines a row in an HTML table.
+A <tr> element contains one or more <th> or <td> elements.
+
+==========
+ATTRIBUTES
+==========
+align: Aligns the content in a table row
+	- right
+	- left
+	- center
+	- justify
+	- char
+bgcolor: Specifies a background color for a table row
+	- rgb(x,x,x)
+	- #xxxxxx
+	- colorname	
+	- RGB Color picker: https://www.w3schools.com/colors/colors_picker.asp
+char: Aligns the content in a table row to a character
+	- character
+charoff: Sets the number of characters the content will be aligned from the character specified by the char attribute
+	- number
+valign: Vertical aligns the content in a table row
+	- top
+	- middle
+	- bottom
+	- baseline
+-->
+
+<table style="height:200px" align=center border=1 bgcolor=lightblue>
+  <tr valign="bottom" bgcolor=orange align=right>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr valign="bottom">
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+</body>
+</html>
